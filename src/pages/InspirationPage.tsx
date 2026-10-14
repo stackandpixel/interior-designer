@@ -20,21 +20,21 @@ export const InspirationPage: React.FC = () => {
       title: 'Tactile Warmth & Urban Calm',
       location: 'Pune High-Rise Concept',
       description: 'American walnut veneer, honed Navona travertine stone, brushed champagne brass trims, and raw Belgian linen drapery.',
-      image: {`${import.meta.env.BASE_URL}images/moodboards/moodboard_1.jpg`},
+      image: `${import.meta.env.BASE_URL}images/moodboards/moodboard_1.jpg`,
       elements: ['American Walnut', 'Navona Travertine', 'Champagne Brass', 'Belgian Linen'],
     },
     {
       title: 'Coastal Serenity & Wabi-Sabi',
       location: 'Mumbai Sea-Facing Concept',
       description: 'Breathable lime-wash wall finish, reclaimed teakwood joinery, hand-loomed jute rug, and patinated bronze hardware.',
-      image: {`${import.meta.env.BASE_URL}images/moodboards/moodboard_2.jpg`},
+      image: `${import.meta.env.BASE_URL}images/moodboards/moodboard_2.jpg`,
       elements: ['Lime-Wash Plaster', 'Reclaimed Teak', 'Hand-loomed Jute', 'Patinated Bronze'],
     },
     {
       title: 'Chef Modular Kitchen & Sintered Stone',
       location: 'Koregaon Park Penthouse Concept',
       description: 'Calacatta honed quartz, matte cashmere grey anti-fingerprint laminates, fluted smoked oak, and black anodized Gola channels.',
-      image: {`${import.meta.env.BASE_URL}images/moodboards/moodboard_3.jpg`},
+      image: `${import.meta.env.BASE_URL}images/moodboards/moodboard_3.jpg`,
       elements: ['Calacatta Quartz', 'Cashmere Laminate', 'Fluted Smoked Oak', 'Black Gola Channel'],
     },
   ];
@@ -134,11 +134,11 @@ export const InspirationPage: React.FC = () => {
             <button
               key={cat}
               onClick={() => setSelectedCategory(cat)}
-              className={`px-3.5 py-1.5 text-xs uppercase tracking-wider font-semibold rounded-xs transition-colors whitespace-nowrap shrink-0 border ${
+              className=`px-3.5 py-1.5 text-xs uppercase tracking-wider font-semibold rounded-xs transition-colors whitespace-nowrap shrink-0 border ${
                 selectedCategory === cat
                   ? 'bg-[#1E1A17] text-[#FAF7F2] border-[#1E1A17]'
                   : 'bg-[#FDFBF7] text-[#6B625B] border-[#ECE5DC] hover:text-[#1E1A17] hover:border-[#D6C8B8]'
-              }`}
+              }`
             >
               {cat}
             </button>
