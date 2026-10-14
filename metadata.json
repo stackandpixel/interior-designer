@@ -1,0 +1,8 @@
+{
+  "name": "AURA Spaces Studio — Premium Interior Design",
+  "description": "Boutique interior design studio based in Baner, Pune. Thoughtfully designed, beautifully lived residential and commercial spaces across Maharashtra.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
