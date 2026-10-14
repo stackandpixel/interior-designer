@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="100%" height="100%" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="warmWall" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FBF8F3" />
+      <stop offset="100%" stop-color="#EBE3D7" />
+    </linearGradient>
+    <linearGradient id="brassA" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E8C98B" />
+      <stop offset="100%" stop-color="#B28C48" />
+    </linearGradient>
+    <pattern id="afterFluted" width="12" height="12" patternUnits="userSpaceOnUse">
+      <rect width="6" height="12" fill="#4A3728" />
+      <rect x="6" width="6" height="12" fill="#38281C" />
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#warmWall)" />
+
+  <!-- Ambient Cove Lighting at Ceiling -->
+  <rect x="0" y="0" width="1200" height="14" fill="url(#brassA)" opacity="0.8" />
+  <rect x="0" y="14" width="1200" height="30" fill="url(#brassA)" opacity="0.15" />
+
+  <!-- Seamless Microcement Flooring -->
+  <polygon points="0,480 1200,480 1200,800 0,800" fill="#DFD6C9" />
+  <!-- Textured Organic Wool Rug -->
+  <polygon points="180,510 1020,510 1100,750 100,750" fill="#EDE7DC" stroke="#CFC4B2" stroke-width="1.5" />
+
+  <!-- Elegant Fluted Walnut Accent Wall with Integrated Media Unit -->
+  <rect x="220" y="100" width="760" height="380" fill="url(#afterFluted)" rx="6" />
+  <!-- Backlit Honed Travertine TV Panel -->
+  <rect x="360" y="140" width="480" height="230" fill="#F4EFEA" rx="4" />
+  <rect x="350" y="130" width="500" height="250" fill="none" stroke="url(#brassA)" stroke-width="2" opacity="0.6" />
+  <!-- Flush Mounted Frame Television with Curated Art -->
+  <rect x="420" y="170" width="360" height="170" fill="#2C2622" rx="2" />
+  <path d="M 460 270 Q 560 210 660 250" stroke="#C19A5B" stroke-width="2.5" fill="none" />
+  <circle cx="600" cy="220" r="14" fill="#C19A5B" opacity="0.8" />
+
+  <!-- Floating Walnut Low Console with Concealed Channels -->
+  <rect x="280" y="410" width="640" height="55" fill="#3D2E24" rx="4" />
+  <rect x="300" y="460" width="600" height="4" fill="url(#brassA)" />
+
+  <!-- Curved Bouclé Lounge Seating in Foreground -->
+  <g transform="translate(180, 520)">
+    <rect x="0" y="40" width="460" height="120" rx="28" fill="#F7F3EC" stroke="#C8BCAB" stroke-width="1.5" />
+    <rect x="20" y="0" width="420" height="80" rx="20" fill="#EFE8DE" />
+    <!-- Sage Velvet Throw Cushion -->
+    <ellipse cx="90" cy="50" rx="28" ry="18" fill="#5F6D5B" opacity="0.9" />
+    <ellipse cx="370" cy="50" rx="28" ry="18" fill="#C19A5B" opacity="0.85" />
+  </g>
+
+  <!-- Travertine Low Coffee Table with Ceramic Vessel -->
+  <ellipse cx="780" cy="620" rx="130" ry="46" fill="#F4EFEA" stroke="#C8BCAB" stroke-width="2" />
+  <ellipse cx="760" cy="610" rx="14" ry="20" fill="#3D2E24" />
+
+  <!-- Stamp: PROPOSED REDESIGN -->
+  <g transform="translate(60, 60)">
+    <rect x="0" y="0" width="260" height="38" rx="4" fill="#5F6D5B" />
+    <text x="20" y="24" fill="#FFFFFF" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="700" letter-spacing="2">
+      PROPOSED REDESIGN / AFTER
+    </text>
+  </g>
+  <g transform="translate(60, 720)">
+    <rect x="0" y="0" width="560" height="48" rx="6" fill="#1E1A17" opacity="0.95" />
+    <text x="20" y="24" fill="#FAF7F2" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="600">
+      FLUTED WALNUT · CONCEALED MEDIA · LAYERED COVE LIGHTING
+    </text>
+    <text x="20" y="40" fill="#C19A5B" font-family="'Plus Jakarta Sans', sans-serif" font-size="11">
+      Space-efficient circulation, hidden wiring, and tactile natural materials.
+    </text>
+  </g>
+</svg>

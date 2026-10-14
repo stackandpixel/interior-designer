@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="100%" height="100%" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="kWall" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F9F6F0" />
+      <stop offset="100%" stop-color="#ECE3D7" />
+    </linearGradient>
+    <linearGradient id="walnutCab" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#4A3728" />
+      <stop offset="100%" stop-color="#2D1F16" />
+    </linearGradient>
+    <linearGradient id="quartz" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="50%" stop-color="#F4EFEA" />
+      <stop offset="100%" stop-color="#EBE3D7" />
+    </linearGradient>
+    <linearGradient id="brassK" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E0BA74" />
+      <stop offset="100%" stop-color="#A67C38" />
+    </linearGradient>
+    <pattern id="subway" width="50" height="25" patternUnits="userSpaceOnUse">
+      <rect width="48" height="23" fill="#FFFFFF" rx="1" />
+      <rect width="50" height="25" fill="none" stroke="#D8CEBF" stroke-width="1" />
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#kWall)" />
+  
+  <!-- Backsplash Area -->
+  <rect x="150" y="180" width="900" height="180" fill="url(#subway)" />
+  <!-- Under-Cabinet Warm Lighting Strip -->
+  <rect x="150" y="176" width="900" height="6" fill="url(#brassK)" opacity="0.9" />
+
+  <!-- Overhead Fluted & Frosted Glass Wall Cabinets -->
+  <rect x="150" y="60" width="900" height="120" fill="url(#walnutCab)" rx="2" />
+  <g stroke="#3A281E" stroke-width="2">
+    <line x1="375" y1="60" x2="375" y2="180" />
+    <line x1="600" y1="60" x2="600" y2="180" />
+    <line x1="825" y1="60" x2="825" y2="180" />
+  </g>
+
+  <!-- Modern Integrated Chimney Hood -->
+  <rect x="520" y="40" width="160" height="140" fill="#221F1E" rx="3" />
+  <rect x="530" y="170" width="140" height="10" fill="url(#brassK)" />
+
+  <!-- Main Quartz Countertop Profile -->
+  <rect x="120" y="360" width="960" height="30" fill="url(#quartz)" stroke="#D8CEBF" rx="2" />
+  <rect x="120" y="390" width="960" height="220" fill="url(#walnutCab)" />
+  
+  <!-- Sleek Gola Profile Handleless Channels -->
+  <rect x="120" y="415" width="960" height="8" fill="#1C1714" />
+  <rect x="120" y="485" width="960" height="8" fill="#1C1714" />
+  <rect x="120" y="555" width="960" height="8" fill="#1C1714" />
+
+  <!-- Island Counter in Foreground -->
+  <g transform="translate(280, 480)">
+    <polygon points="40,30 580,30 640,110 0,110" fill="url(#quartz)" stroke="#D8CEBF" stroke-width="1.5" />
+    <rect x="0" y="110" width="640" height="170" fill="#3D2D21" rx="4" />
+    <!-- Island Bar Stools with Brass Footrests -->
+    <g transform="translate(120, 150)">
+      <ellipse cx="40" cy="15" rx="36" ry="12" fill="#D3C2AF" />
+      <line x1="16" y1="20" x2="10" y2="120" stroke="#221C18" stroke-width="4" />
+      <line x1="64" y1="20" x2="70" y2="120" stroke="#221C18" stroke-width="4" />
+      <line x1="12" y1="80" x2="68" y2="80" stroke="url(#brassK)" stroke-width="3" />
+    </g>
+    <g transform="translate(340, 150)">
+      <ellipse cx="40" cy="15" rx="36" ry="12" fill="#D3C2AF" />
+      <line x1="16" y1="20" x2="10" y2="120" stroke="#221C18" stroke-width="4" />
+      <line x1="64" y1="20" x2="70" y2="120" stroke="#221C18" stroke-width="4" />
+      <line x1="12" y1="80" x2="68" y2="80" stroke="url(#brassK)" stroke-width="3" />
+    </g>
+  </g>
+
+  <!-- Modern Dual Pendant Lamps -->
+  <line x1="420" y1="0" x2="420" y2="280" stroke="url(#brassK)" stroke-width="2" />
+  <polygon points="390,320 450,320 430,280 410,280" fill="url(#brassK)" />
+  <line x1="720" y1="0" x2="720" y2="280" stroke="url(#brassK)" stroke-width="2" />
+  <polygon points="690,320 750,320 730,280 710,280" fill="url(#brassK)" />
+
+  <!-- Badge -->
+  <g transform="translate(60, 720)">
+    <rect x="0" y="0" width="460" height="48" rx="6" fill="#1E1A17" opacity="0.92" />
+    <text x="20" y="24" fill="#FAF7F2" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="600" letter-spacing="1.5">
+      MODERN MODULAR KITCHEN · PUNE
+    </text>
+    <text x="20" y="40" fill="#C19A5B" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" letter-spacing="1">
+      IS 710 BWP MARINE PLY · HAFELE HARDWARE · CALACATTA QUARTZ
+    </text>
+  </g>
+</svg>

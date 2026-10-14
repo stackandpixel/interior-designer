@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="100%" height="100%" preserveAspectRatio="xMidYMid slice">
+  <rect width="1200" height="800" fill="#E6E0D6" />
+  <!-- Harsh overhead fluorescent tube light simulation -->
+  <rect x="450" y="40" width="300" height="15" fill="#FFFFFF" stroke="#999" />
+  <polygon points="450,55 750,55 950,400 250,400" fill="#FFFFFF" opacity="0.18" />
+
+  <!-- Dated plain tiled floor with stark seams -->
+  <polygon points="0,480 1200,480 1200,800 0,800" fill="#DCD4C7" />
+  <g stroke="#B8AEA0" stroke-width="2">
+    <line x1="200" y1="480" x2="0" y2="800" />
+    <line x1="500" y1="480" x2="350" y2="800" />
+    <line x1="800" y1="480" x2="750" y2="800" />
+    <line x1="1100" y1="480" x2="1150" y2="800" />
+    <line x1="0" y1="580" x2="1200" y2="580" />
+    <line x1="0" y1="690" x2="1200" y2="690" />
+  </g>
+
+  <!-- Bulky outdated dark laminate TV unit with exposed cables -->
+  <rect x="250" y="220" width="700" height="260" fill="#54433A" stroke="#33251F" stroke-width="3" />
+  <rect x="360" y="250" width="320" height="180" fill="#2A2422" />
+  <!-- Tangled wires -->
+  <path d="M 520 430 Q 510 490 530 510 Q 560 520 540 550" stroke="#111" stroke-width="3" fill="none" />
+  <path d="M 600 430 Q 640 480 620 530" stroke="#111" stroke-width="2.5" fill="none" />
+
+  <!-- Boxy synthetic sofa in awkward position -->
+  <rect x="180" y="490" width="420" height="140" fill="#886E58" rx="4" />
+  <rect x="200" y="460" width="380" height="70" fill="#6E5642" rx="4" />
+
+  <!-- Stamp: DATED BEFORE STATE -->
+  <g transform="translate(60, 60)">
+    <rect x="0" y="0" width="220" height="38" rx="4" fill="#C84B31" />
+    <text x="20" y="24" fill="#FFFFFF" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="700" letter-spacing="2">
+      ORIGINAL / BEFORE
+    </text>
+  </g>
+  <g transform="translate(60, 720)">
+    <rect x="0" y="0" width="520" height="48" rx="6" fill="#2B2521" opacity="0.9" />
+    <text x="20" y="24" fill="#FAF7F2" font-family="'Plus Jakarta Sans', sans-serif" font-size="13" font-weight="600">
+      UNDERUTILIZED LAYOUT · HARSH LIGHTING
+    </text>
+    <text x="20" y="40" fill="#E28F79" font-family="'Plus Jakarta Sans', sans-serif" font-size="11">
+      Exposed wiring, outdated bulky joinery, and lack of functional storage.
+    </text>
+  </g>
+</svg>
