@@ -73,7 +73,7 @@ export const SERVICES_DATA: ServiceItem[] = [
       'Hardware specification sheets & internal organizer catalog',
       'Countertop slab cutting & edge profile specifications',
     ],
-    image: `${import.meta.env.BASE_URL}images/services/service_kitchen.jpg,
+    image: `${import.meta.env.BASE_URL}images/services/service_kitchen.jpg`,
     timelineEstimate: '4–6 Weeks',
   },
   {
