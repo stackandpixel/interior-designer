@@ -12,7 +12,7 @@ export const StudioIntroSection: React.FC = () => {
           <div className="lg:col-span-5 order-2 lg:order-1">
             <div className="relative rounded-sm overflow-hidden border border-[#ECE5DC] shadow-md bg-[#ECE5DC]">
               <ImageWithFallback
-                src="/images/projects/dining_modern_indian.jpg"
+                src={`${import.meta.env.BASE_URL}images/projects/dining_modern_indian.jpg`}
                 alt="Contemporary Indian dining room with solid walnut table and cane-weave seating"
                 aspectRatioClass="aspect-[4/5]"
                 className="w-full h-full object-cover"
