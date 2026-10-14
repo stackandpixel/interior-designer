@@ -134,11 +134,11 @@ export const InspirationPage: React.FC = () => {
             <button
               key={cat}
               onClick={() => setSelectedCategory(cat)}
-              className=`px-3.5 py-1.5 text-xs uppercase tracking-wider font-semibold rounded-xs transition-colors whitespace-nowrap shrink-0 border ${
+              className={`px-3.5 py-1.5 text-xs uppercase tracking-wider font-semibold rounded-xs transition-colors whitespace-nowrap shrink-0 border ${
                 selectedCategory === cat
                   ? 'bg-[#1E1A17] text-[#FAF7F2] border-[#1E1A17]'
                   : 'bg-[#FDFBF7] text-[#6B625B] border-[#ECE5DC] hover:text-[#1E1A17] hover:border-[#D6C8B8]'
-              }`
+              }`}
             >
               {cat}
             </button>
