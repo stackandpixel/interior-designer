@@ -23,7 +23,7 @@ export const SERVICES_DATA: ServiceItem[] = [
       'Complete Bill of Quantities (BOQ) with material specifications',
       'Vendor coordination & periodic site quality audits',
     ],
-    image: {`${import.meta.env.BASE_URL}images/services/service_residential.jpg`},
+    image: `${import.meta.env.BASE_URL}images/services/service_residential.jpg`,
     timelineEstimate: '10–16 Weeks depending on carpet area & scope',
   },
   {
@@ -48,7 +48,7 @@ export const SERVICES_DATA: ServiceItem[] = [
       'Lighting circuit diagrams & dimmer compatibility guidelines',
       'Fabric & upholstery swatch selections',
     ],
-    image: {`${import.meta.env.BASE_URL}images/services/service_living.jpg`},
+    image: `${import.meta.env.BASE_URL}images/services/service_living.jpg`,
     timelineEstimate: '4–8 Weeks',
   },
   {
@@ -73,7 +73,7 @@ export const SERVICES_DATA: ServiceItem[] = [
       'Hardware specification sheets & internal organizer catalog',
       'Countertop slab cutting & edge profile specifications',
     ],
-    image: {`${import.meta.env.BASE_URL}images/services/service_kitchen.jpg},
+    image: `${import.meta.env.BASE_URL}images/services/service_kitchen.jpg,
     timelineEstimate: '4–6 Weeks',
   },
   {
@@ -98,7 +98,7 @@ export const SERVICES_DATA: ServiceItem[] = [
       'Electrical switchboard relocation & reading light positions',
       'Hardware and drawer runner load-rating schedules',
     ],
-    image: {`${import.meta.env.BASE_URL}images/services/service_bedroom.jpg`},
+    image: `${import.meta.env.BASE_URL}images/services/service_bedroom.jpg`,
     timelineEstimate: '5–8 Weeks',
   },
   {
@@ -123,7 +123,7 @@ export const SERVICES_DATA: ServiceItem[] = [
       'Acoustic testing recommendations and baffle drawings',
       'Custom reception desk and boardroom furniture details',
     ],
-    image: {`${import.meta.env.BASE_URL}images/services/service_commercial.jpg`},
+    image: `${import.meta.env.BASE_URL}images/services/service_commercial.jpg`,
     timelineEstimate: '8–14 Weeks',
   },
   {
@@ -148,7 +148,7 @@ export const SERVICES_DATA: ServiceItem[] = [
       'Weekly photo/video milestone reports',
       'Handover testing & snag-list closure protocol',
     ],
-    image: {`${import.meta.env.BASE_URL}images/services/service_renovation.jpg`},
+    image: `${import.meta.env.BASE_URL}images/services/service_renovation.jpg`,
     timelineEstimate: '12–18 Weeks',
   },
 ];
