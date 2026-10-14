@@ -88,7 +88,7 @@ export const BeforeAfterSection: React.FC = () => {
             {/* After Image (Background) */}
             <div className="absolute inset-0 w-full h-full">
               <ImageWithFallback
-                src="/images/before_after/living_room_after.jpg"
+                src={`${import.meta.env.BASE_URL}images/before_after/living_room_after.jpg`}
                 alt="Proposed redesigned contemporary Indian living room"
                 aspectRatioClass="w-full h-full"
                 className="w-full h-full object-cover"
@@ -105,7 +105,7 @@ export const BeforeAfterSection: React.FC = () => {
             >
               <div className="w-full h-full min-w-full" style={{ width: containerRef.current?.offsetWidth || '100%' }}>
                 <ImageWithFallback
-                  src="/images/before_after/living_room_before.jpg"
+                  src={`${import.meta.env.BASE_URL}images/before_after/living_room_before.jpg`}
                   alt="Original dated Indian apartment living room"
                   aspectRatioClass="w-full h-full"
                   className="w-full h-full object-cover"
@@ -137,7 +137,7 @@ export const BeforeAfterSection: React.FC = () => {
                 Dated Original State
               </div>
               <ImageWithFallback
-                src="/images/before_after/living_room_before.jpg"
+                src={`${import.meta.env.BASE_URL}images/before_after/living_room_before.jpg`}
                 alt="Dated original living room"
                 aspectRatioClass="aspect-[16/10]"
                 className="w-full h-full object-cover"
@@ -148,7 +148,7 @@ export const BeforeAfterSection: React.FC = () => {
                 Proposed Architectural Redesign
               </div>
               <ImageWithFallback
-                src="/images/before_after/living_room_after.jpg"
+                src={`${import.meta.env.BASE_URL}images/before_after/living_room_after.jpg`}
                 alt="Redesigned contemporary living room"
                 aspectRatioClass="aspect-[16/10]"
                 className="w-full h-full object-cover"
