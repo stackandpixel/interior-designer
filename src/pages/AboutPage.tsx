@@ -61,7 +61,7 @@ export const AboutPage: React.FC = () => {
           <div className="lg:col-span-6">
             <div className="rounded-sm overflow-hidden border border-[#ECE5DC] shadow-md bg-[#ECE5DC]">
               <ImageWithFallback
-                src="/images/projects/project_minimalist_mumbai.jpg"
+                src={`${import.meta.env.BASE_URL}images/projects/project_minimalist_mumbai.jpg`}
                 alt="Architectural studio material philosophy"
                 aspectRatioClass="aspect-[4/3]"
                 className="w-full h-full object-cover"
