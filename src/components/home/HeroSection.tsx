@@ -65,7 +65,7 @@ export const HeroSection: React.FC = () => {
           <div className="lg:col-span-6">
             <div className="relative rounded-sm overflow-hidden shadow-xl border border-[#ECE5DC] bg-[#ECE5DC]">
               <ImageWithFallback
-                src="/images/hero/hero_living_room.jpg"
+                src="${import.meta.env.BASE_URL}images/hero/hero_living_room.jpg"
                 alt="Contemporary luxury apartment living room in Pune designed by AURA Spaces Studio"
                 aspectRatioClass="aspect-[16/11]"
                 className="w-full h-full object-cover"
